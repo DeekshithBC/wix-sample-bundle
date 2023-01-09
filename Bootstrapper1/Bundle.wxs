@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Bundle Name="Bootstrapper1" Version="1.0.0.0" Manufacturer="Thermo Fisher Scientific, Inc." UpgradeCode="604cff50-e5ac-400d-9507-893202f62d8c">
+		<BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.RtfLicense" />
+
+		<Chain>
+			<!-- TODO: Define the list of chained packages. -->
+			<MsiPackage SourceFile="C:\Users\deekshith.bc\Downloads\WIX-Bundle-master\WIX-Bundle-master\SetupProject1\bin\Debug\SetupProject1.msi" />
+			<MsiPackage SourceFile="C:\Users\deekshith.bc\Downloads\WIX-Bundle-master\WIX-Bundle-master\SetupProject2\bin\Debug\SetupProject2.msi" />
+
+		</Chain>
+	</Bundle>
+</Wix>
